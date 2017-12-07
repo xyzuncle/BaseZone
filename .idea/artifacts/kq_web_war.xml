@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kq-web:war">
+    <output-path>$PROJECT_DIR$/kq-web-consumer/target</output-path>
+    <root id="archive" name="parent.war">
+      <element id="artifact" artifact-name="kq-web:war exploded" />
+    </root>
+  </artifact>
+</component>

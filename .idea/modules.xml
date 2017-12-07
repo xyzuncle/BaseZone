@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/dubbo_workspace.iml" filepath="$PROJECT_DIR$/.idea/dubbo_workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kq-facade-iservice/kq-facade-iservice.iml" filepath="$PROJECT_DIR$/kq-facade-iservice/kq-facade-iservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kq-web-consumer/kq-web.iml" filepath="$PROJECT_DIR$/kq-web-consumer/kq-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kq-provider-service/provider.iml" filepath="$PROJECT_DIR$/kq-provider-service/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kq-register-ctenter/register.iml" filepath="$PROJECT_DIR$/kq-register-ctenter/register.iml" />
+    </modules>
+  </component>
+</project>

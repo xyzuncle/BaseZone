@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kq-facade-iservice:war">
+    <output-path>$PROJECT_DIR$/kq-facade-iservice/target</output-path>
+    <root id="archive" name="kq-facade-iservice.war">
+      <element id="artifact" artifact-name="kq-facade-iservice:war exploded" />
+    </root>
+  </artifact>
+</component>

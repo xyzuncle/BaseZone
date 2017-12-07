@@ -23,7 +23,7 @@
 
     <modules>
         <module>kq-provider-service</module>
-        <module>kq-facade-iservice</module>
+       <!-- <module>kq-facade-iservice</module>-->
         <module>kq-web-consumer</module>
         <module>kq-register-ctenter</module>
     </modules>

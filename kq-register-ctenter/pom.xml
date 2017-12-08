@@ -39,12 +39,12 @@
 
 
     <build>
+        <finalName>center</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <finalName>center</finalName>
                     <mainClass>com.kq.CenterApplication</mainClass>
                 </configuration>
                 <executions>

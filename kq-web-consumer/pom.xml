@@ -41,11 +41,12 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>-->
 
-        <dependency>
+      <!--  <dependency>
             <groupId>dubbo</groupId>
             <artifactId>provider</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
@@ -67,12 +68,13 @@
     </dependencyManagement>
 
     <build>
+        <finalName>web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <finalName>web</finalName>
+
                     <mainClass>com.kq.Application</mainClass>
                 </configuration>
                 <executions>

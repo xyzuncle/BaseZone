@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2009-2012 The MyBatis Team Licensed under the Apache License,
+	Version 2.0 (the "License"); you may not use this file except in compliance
+	with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+	Unless required by applicable law or agreed to in writing, software distributed
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for
+	the specific language governing permissions and limitations under the License. -->
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <settings>
+        <!-- è¿ä¸ªéç½®ä½¿å¨å±çæ å°å¨å¯ç¨æç¦ç¨ ç¼å­ -->
+        <setting name="cacheEnabled" value="true" />
+        <!-- å¨å±å¯ç¨æç¦ç¨å»¶è¿å è½½ãå½ç¦ç¨æ¶, ææå³èå¯¹è±¡é½ä¼å³æ¶å è½½ -->
+        <setting name="lazyLoadingEnabled" value="true" />
+        <!-- åè®¸æä¸åè®¸å¤ç§ç»æéä»ä¸ä¸ªåç¬ çè¯­å¥ä¸­è¿å(éè¦éåçé©±å¨) -->
+        <setting name="multipleResultSetsEnabled" value="true" />
+        <!-- ä½¿ç¨åæ ç­¾ä»£æ¿ååã ä¸åçé©±å¨å¨è¿ æ¹ä¾¿è¡¨ç°ä¸åã åèé©±å¨ææ¡£æååæµ è¯ä¸¤ç§æ¹æ³æ¥å³å®æä½¿ç¨çé©±å¨ -->
+        <setting name="useColumnLabel" value="true" />
+        <!-- åè®¸ JDBC æ¯æçæçé®ã éè¦éåç é©±å¨ã å¦æè®¾ç½®ä¸º true åè¿ä¸ªè®¾ç½®å¼ºå¶ çæçé®è¢«ä½¿ç¨, å°½ç®¡ä¸äºé©±å¨æç»å¼ å®¹ä½ä»ç¶ææ(æ¯å¦
+            Derby) -->
+        <setting name="useGeneratedKeys" value="false" />
+        <!-- éç½®é»è®¤çæ§è¡å¨ãSIMPLE æ§è¡å¨æ²¡ æä»ä¹ç¹å«ä¹å¤ãREUSE æ§è¡å¨éç¨ é¢å¤çè¯­å¥ãBATCH æ§è¡å¨éç¨è¯­å¥ åæ¹éæ´æ° -->
+        <setting name="defaultExecutorType" value="SIMPLE" />
+        <!-- è®¾ç½®è¶æ¶æ¶é´, å®å³å®é©±å¨ç­å¾ä¸ä¸ªæ° æ®åºååºçæ¶é´ -->
+        <setting name="defaultStatementTimeout" value="100" />
+        <setting name="safeRowBoundsEnabled" value="false" />
+        <setting name="mapUnderscoreToCamelCase" value="false" />
+        <setting name="localCacheScope" value="SESSION" />
+        <setting name="jdbcTypeForNull" value="OTHER" />
+        <setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString" />
+    </settings>
+
+
+
+    <!--<mappers>
+        <mapper resource="mybatis/mapper/PmsUser.Mapper.xml" />
+    </mappers>-->
+
+</configuration>

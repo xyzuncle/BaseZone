@@ -21,6 +21,7 @@ public class ConsumerController {
             method = {RequestMethod.GET}
     )
     public String helloConsumer() {
+        System.out.println("我被调用");
         return helloService.helloService();
     }
 }

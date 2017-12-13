@@ -1,5 +1,6 @@
 package com.kq.controller;
 
+import com.kq.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -8,8 +9,9 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class ConsumerController {
+
     @Autowired
-    RestTemplate restTemplate;
+    HelloService helloService;
 
     public ConsumerController() {
     }
@@ -19,6 +21,6 @@ public class ConsumerController {
             method = {RequestMethod.GET}
     )
     public String helloConsumer() {
-        return (String)this.restTemplate.getForEntity("http://HELLO-SERVICE/pms/query.do", String.class, new Object[0]).getBody();
+        return helloService.helloService();
     }
 }

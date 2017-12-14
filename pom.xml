@@ -26,6 +26,7 @@
        <!-- <module>kq-facade-iservice</module>-->
         <module>kq-web-consumer</module>
         <module>kq-register-ctenter</module>
+        <module>kq-feign-consumer</module>
     </modules>
 
   <build>

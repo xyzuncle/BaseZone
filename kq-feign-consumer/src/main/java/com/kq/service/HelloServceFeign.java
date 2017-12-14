@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @FeignClient("hello-service")
 public interface HelloServceFeign {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/pms/query.do")
     String hello();
 }

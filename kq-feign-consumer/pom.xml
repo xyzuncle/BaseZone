@@ -30,6 +30,14 @@
             <artifactId>spring-cloud-starter-feign</artifactId>
             <version>1.3.5.RELEASE</version>
         </dependency>
+
+        <!-- 引入公共的接口 和DTO-->
+        <dependency>
+            <groupId>dubbo</groupId>
+            <artifactId>kq-iservice</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

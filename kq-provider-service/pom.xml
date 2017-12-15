@@ -92,6 +92,12 @@
             <scope>test</scope>
         </dependency>
 
+		<dependency>
+			<groupId>dubbo</groupId>
+			<artifactId>kq-iservice</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>

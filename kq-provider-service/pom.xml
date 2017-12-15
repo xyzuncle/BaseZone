@@ -94,7 +94,7 @@
 
 		<dependency>
 			<groupId>dubbo</groupId>
-			<artifactId>kq-iservice</artifactId>
+			<artifactId>iservice</artifactId>
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 

@@ -20,7 +20,7 @@
     </dependencies>
 
     <build>
-        <finalName>service</finalName>
+        <finalName>Iservice</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

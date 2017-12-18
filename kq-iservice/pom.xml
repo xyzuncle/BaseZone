@@ -22,7 +22,7 @@
     </dependencies>
 
     <build>
-        <finalName>Iservice</finalName>
+        <finalName>iservice</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -40,6 +40,21 @@
             </plugin>
         </plugins>
     </build>
+    <!--部署包到本地目录 或 部署到 私服-->
+    <!--<distributionManagement>
+        <repository>
+            <id>localRepository</id>
+            <url>file:D:\Program Files\mvn\localrepo</url>
+        </repository>
+
+        &lt;!&ndash;发布到公共的私服，有可能涉及到认证问题，后续再说&ndash;&gt;
+       &lt;!&ndash; <repository>
+            <id>releases</id>
+            <name>Internal Releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/thirdparty</url>
+        </repository>&ndash;&gt;
+
+    </distributionManagement>-->
 
 
 

@@ -96,6 +96,7 @@
 			<groupId>dubbo</groupId>
 			<artifactId>iservice</artifactId>
 			<version>1.0</version>
+            <scope>provided</scope>
 		</dependency>
 
         <dependency>
@@ -135,8 +136,23 @@
 					</execution>
 				</executions>
 			</plugin>
+
 		</plugins>
 	</build>
 
+    <distributionManagement>
+        <repository>
+            <id>localRepository</id>
+            <url>${user.home}/.m2/repository</url>
+        </repository>
+
+        <!--发布到公共的私服，有可能涉及到认证问题，后续再说-->
+        <!-- <repository>
+             <id>releases</id>
+             <name>Internal Releases</name>
+             <url>http://localhost:8081/nexus/content/repositories/thirdparty</url>
+         </repository>-->
+
+    </distributionManagement>
 
 </project>

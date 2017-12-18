@@ -22,11 +22,11 @@
     </parent>
 
     <modules>
-        <module>kq-provider-service</module>
+        <module>kq-iservice</module>
         <module>kq-web-consumer</module>
         <module>kq-register-ctenter</module>
+        <module>kq-provider-service</module>
         <module>kq-feign-consumer</module>
-        <module>kq-iservice</module>
     </modules>
 
   <build>
